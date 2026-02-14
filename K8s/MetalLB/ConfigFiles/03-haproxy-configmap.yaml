@@ -1,0 +1,60 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: haproxy-config
+  labels:
+    app: haproxy-proxy
+data:
+  haproxy.cfg: |
+    global
+      log stdout format raw local0 info
+      daemon
+      maxconn 4000
+      stats socket /var/run/haproxy.sock mode 660 level admin
+      stats timeout 30s
+    
+    defaults
+      log global
+      mode http
+      timeout connect 5s
+      timeout client 50s
+      timeout server 50s
+      option httplog
+      option dontlognull
+    
+    # Optional: Stats endpoint (for monitoring)
+    frontend stats
+      bind *:8404
+      stats enable
+      stats uri /stats
+      stats refresh 10s
+      stats admin if LOCALHOST
+    
+    # Main frontend
+    frontend http_front
+      bind *:8080
+      
+      # Add headers for debugging
+      http-request add-header X-Forwarded-For %[src]
+      http-request add-header X-Forwarded-Proto http
+      http-request add-header X-Real-IP %[src]
+      
+      # Default backend
+      default_backend google_backend
+    
+    # Google backend
+    backend google_backend
+      # SSL connection to Google with verification disabled
+      option ssl-hello-chk
+      server google_server www.google.com:443 check ssl verify none
+      
+      # Required headers for Google
+      http-request set-header Host www.google.com
+      http-request set-header User-Agent "HAProxy-Proxy/1.0"
+      
+      # Connection settings
+      timeout connect 10s
+      timeout server 30s
+      
+      # Load balancing (if multiple servers in future)
+      balance roundrobin
