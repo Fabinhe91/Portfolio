@@ -30,6 +30,7 @@ Loopback1: 20.20.20.1/24 (simulated internal network)
 Transit Network: 192.168.253.0/24 connecting both routers to an upstream ISP gateway (192.168.253.2).
 
 ### Network Diagram
+
 <img src="diagram.png"/>
 
 ### Configuration Highlights
