@@ -10,58 +10,58 @@ The purpose of developing a WSUS implementation project in a laboratory environm
 
 ## Network Diagram
 
-<img src="diagram.png"/>
+<img src="assets/diagram.png"/>
 
 ## Server Specs
 
-<img src="specs.png"/>
+<img src="assets/specs.png"/>
 
 ## Server Configs
 
-<img src="1.png"/>
-<img src="2.png"/>
-<img src="3.png"/>
-<img src="4.png"/>
-<img src="5.png"/>
-<img src="6.png"/>
-<img src="7.png"/>
-<img src="8.png"/>
-<img src="9.png"/>
-<img src="10.png"/>
-<img src="11.png"/>
-<img src="12.png"/>
-<img src="13.png"/>
-<img src="14.png"/>
-<img src="15.png"/>
-<img src="16.png"/>
-<img src="17.png"/>
-<img src="18.png"/>
-<img src="19.png"/>
-<img src="20.png"/>
-<img src="21.png"/>
-<img src="22.png"/>
-<img src="23.png"/>
-<img src="24.png"/>
-<img src="25.png"/>
-<img src="26.png"/>
-<img src="27.png"/>
-<img src="28.png"/>
-<img src="29.png"/>
-<img src="30.png"/>
-<img src="31.png"/>
-<img src="32.png"/>
-<img src="33.png"/>
-<img src="34.png"/>
-<img src="35.png"/>
+<img src="assets/1.png"/>
+<img src="assets/2.png"/>
+<img src="assets/3.png"/>
+<img src="assets/4.png"/>
+<img src="assets/5.png"/>
+<img src="assets/6.png"/>
+<img src="assets/7.png"/>
+<img src="assets/8.png"/>
+<img src="assets/9.png"/>
+<img src="assets/10.png"/>
+<img src="assets/11.png"/>
+<img src="assets/12.png"/>
+<img src="assets/13.png"/>
+<img src="assets/14.png"/>
+<img src="assets/15.png"/>
+<img src="assets/16.png"/>
+<img src="assets/17.png"/>
+<img src="assets/18.png"/>
+<img src="assets/19.png"/>
+<img src="assets/20.png"/>
+<img src="assets/21.png"/>
+<img src="assets/22.png"/>
+<img src="assets/23.png"/>
+<img src="assets/24.png"/>
+<img src="assets/25.png"/>
+<img src="assets/26.png"/>
+<img src="assets/27.png"/>
+<img src="assets/28.png"/>
+<img src="assets/29.png"/>
+<img src="assets/30.png"/>
+<img src="assets/31.png"/>
+<img src="assets/32.png"/>
+<img src="assets/33.png"/>
+<img src="assets/34.png"/>
+<img src="assets/35.png"/>
 
 ## Client Configs
 
-<img src="client1.png"/>
-<img src="client2.png"/>
-<img src="client3.png"/>
-<img src="client4.png"/>
-<img src="client5.png"/>
-<img src="client6.png"/>
+<img src="assets/client1.png"/>
+<img src="assets/client2.png"/>
+<img src="assets/client3.png"/>
+<img src="assets/client4.png"/>
+<img src="assets/client5.png"/>
+<img src="assets/client6.png"/>
 
 ## Conclusion
 
