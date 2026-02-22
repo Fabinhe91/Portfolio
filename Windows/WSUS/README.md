@@ -1,4 +1,10 @@
-# WSUS
+# WSUS - Windows Server Update Services
+
+## Overview
+
+Windows Server Update Services (WSUS) provides a way for IT administrators to deploy the latest Microsoft product updates. You can use WSUS to fully manage the distribution of updates that are released through Microsoft Update to computers on your network. This article provides an overview of this server role and more information about how to deploy and maintain WSUS.
+
+## Lab
 
 The purpose of developing a WSUS implementation project in a laboratory environment is to carry out controlled tests and simulations before deploying to a production environment. This allows:
 
