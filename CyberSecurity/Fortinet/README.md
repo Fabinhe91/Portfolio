@@ -9,23 +9,23 @@
 
 ## Initial Setup
 
-config system interface
-    edit "port1"
-    set mode static
-    set ip <NEW_IP_ADDRESS> <SUBNET_MASK>
-    set allowaccess ping https ssh
-    set description "Your Description"
-    next
-end
+config system interface \
+    edit "port1" \
+    set mode static \
+    set ip <NEW_IP_ADDRESS> <SUBNET_MASK> \
+    set allowaccess ping https ssh \
+    set description "Your Description" \
+    next \
+end \
 
-config system interface
-    edit "port2"
-    set mode static
-    set ip <NEW_IP_ADDRESS> <SUBNET_MASK>
-    set allowaccess ping https ssh
-    set description "Your Description"
-    next
-end
+config system interface \
+    edit "port2" \
+    set mode static \
+    set ip <NEW_IP_ADDRESS> <SUBNET_MASK> \
+    set allowaccess ping https ssh \
+    set description "Your Description" \
+    next \ 
+end \
 
 <img src="fortigate_cli.png"/>
 
