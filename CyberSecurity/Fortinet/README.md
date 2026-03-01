@@ -16,7 +16,7 @@ config system interface \
     set allowaccess ping https ssh \
     set description "Your Description" \
     next \
-end \
+end
 
 config system interface \
     edit "port2" \
@@ -24,8 +24,8 @@ config system interface \
     set ip <NEW_IP_ADDRESS> <SUBNET_MASK> \
     set allowaccess ping https ssh \
     set description "Your Description" \
-    next \ 
-end \
+    next \
+end
 
 <img src="fortigate_cli.png"/>
 
